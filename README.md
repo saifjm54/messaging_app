@@ -47,8 +47,7 @@ React Client ─────── WebSocket ───────▶ Spring Boo
 
 ### 🐳 Backend (Spring Boot)
 
-```bash
-./mvnw spring-boot:run
+```bash ./mvnw spring-boot:run 
 
 # Or build and run with Docker
 
