@@ -57,7 +57,7 @@ docker run -p 8080:8080 messaging-service
 
 # Frontend (React)
 
-cd client
+cd frontend
 npm install
 npm start
 
