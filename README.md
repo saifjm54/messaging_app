@@ -51,12 +51,12 @@ React Client ─────── WebSocket ───────▶ Spring Boo
 ./mvnw spring-boot:run
 ```
 
-# 🛳️ Or build and run with Docker
+### 🛳️ Or build and run with Docker
 ```bash
 docker build -t messaging-service .
 docker run -p 8080:8080 messaging-service
 ```
-# 🌐 Frontend (React)
+### 🌐 Frontend (React)
 
 ```bash
 cd frontend
