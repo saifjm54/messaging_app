@@ -1,6 +1,13 @@
-example/avro/User.class
-com/example/messaging_service/config/ChatWebSocketHandler.class
+example/proto/Mail.class
 com/example/messaging_service/MessagingServiceApplication.class
+example/proto/Message$Builder.class
+example/Main$MailImpl.class
+example/avro/User.class
+example/proto/Message.class
+Main.class
+example/proto/Mail$Callback.class
+com/example/messaging_service/config/ChatWebSocketHandler.class
 com/example/messaging_service/dto/ChatMessage.class
+example/Main.class
 example/avro/User$Builder.class
 com/example/messaging_service/config/WebSocketConfig.class

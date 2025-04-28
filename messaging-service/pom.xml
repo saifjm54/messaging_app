@@ -58,6 +58,16 @@
 			<artifactId>avro</artifactId>
 			<version>1.11.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.avro</groupId>
+			<artifactId>avro-ipc</artifactId>
+			<version>1.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.avro</groupId>
+			<artifactId>avro-ipc-netty</artifactId>
+			<version>1.11.1</version>
+		</dependency>
 
 	</dependencies>
 
@@ -73,9 +83,12 @@
 				<version>1.11.1</version>
 				<executions>
 					<execution>
+						<id>schemas</id>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>schema</goal>
+							<goal>protocol</goal>
+							<goal>idl-protocol</goal>
 						</goals>
 						<configuration>
 							<sourceDirectory>${project.basedir}/src/main/resources/</sourceDirectory>
